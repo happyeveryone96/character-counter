@@ -4,6 +4,7 @@
 
 <img src="https://user-images.githubusercontent.com/66675699/185364170-be3455e4-2046-40eb-a6d2-4fcab0177f86.gif" alt="데모 영상"/>
 <br>
+
 ## 기술 스택
 
 - TypeScript, React, Recoil, JavaScript, React Router, SCSS
