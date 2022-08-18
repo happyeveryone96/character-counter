@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CharacterCounter from './CharacterCounter/CharacterCounter';
 
-function Router() {
+function Router(): JSX.Element {
   return (
     <BrowserRouter>
       <Routes>
