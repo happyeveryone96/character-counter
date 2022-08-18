@@ -34,6 +34,7 @@ function TextArea(): JSX.Element {
         value={text}
         onChange={onChange}
         ref={ref}
+        spellCheck={false}
       />
     </div>
   );
