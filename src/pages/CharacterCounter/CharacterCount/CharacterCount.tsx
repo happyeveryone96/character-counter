@@ -1,10 +1,10 @@
 import React from 'react';
 import { useRecoilValue } from 'recoil';
-import { textState } from '../../../recoil/counter';
+import { charCountState } from '../../../recoil/counter';
 
 function CharacterCount(): JSX.Element {
-  const text = useRecoilValue<string>(textState);
-  return <>글자수: {text.length}</>;
+  const count = useRecoilValue<number>(charCountState);
+  return <>글자수: {count}</>;
 }
 
 export default CharacterCount;
